@@ -367,12 +367,12 @@ p {
 }
 .btn {
   width: 228px;
-  border: 1px solid #5d5959;
+  border: 1px solid #ffffff;
   background: none;
   display: block;
   font: 36px/76px 'Open Sans', sans-serif;
   text-align: center;
-  color: #5d5959;
+  color: #ffffff;
   margin-top: 20px;
   margin: 20px auto;
 }
