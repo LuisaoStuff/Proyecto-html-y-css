@@ -365,6 +365,9 @@ p {
 .full-width-container {
   width: 100%;
 }
+.thumbnail {
+  width: 100%;
+}
 .img_block {
   overflow: hidden;
   margin-bottom: 15px;
