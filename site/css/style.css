@@ -347,6 +347,14 @@ h5 {
   margin-bottom: 10px;
   color: #ffffff;
 }
+h6 {
+  font-size: 16px;
+  line-height: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
 .h5__mod {
   color: #ffffff;
 }
@@ -415,6 +423,14 @@ p {
     margin-bottom: 20px;
     color: #3c3c3e;
   }
+  h6 {
+  font-size: 16px;
+  line-height: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  margin-bottom: 10px;
+  color: #3c3c3e;
+  }
 }
 @media only screen and (max-width: 767px) {
   h2 {
@@ -438,6 +454,12 @@ p {
   h5 {
     font: 20px/20px 'Marvel', sans-serif;
     text-align: center;
+    margin-bottom: 20px;
+    color: #3c3c3e;
+  }
+  h6 {
+    font: 20px/20px 'Marvel', sans-serif;
+    text-align: justify;
     margin-bottom: 20px;
     color: #3c3c3e;
   }
@@ -467,6 +489,12 @@ p {
   h5 {
     font: 16px/16px 'Marvel', sans-serif;
     text-align: center;
+    margin-bottom: 20px;
+    color: #3c3c3e;
+  }
+  h6 {
+    font: 16px/16px 'Marvel', sans-serif;
+    text-align: justify;
     margin-bottom: 20px;
     color: #3c3c3e;
   }
