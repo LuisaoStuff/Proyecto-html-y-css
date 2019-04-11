@@ -349,7 +349,7 @@ h5 {
 }
 h6 {
   font-size: 16px;
-  line-height: 16px;
+  line-height: 20px;
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
   margin-bottom: 10px;
@@ -425,7 +425,7 @@ p {
   }
   h6 {
   font-size: 16px;
-  line-height: 16px;
+  line-height: 20px;
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
   margin-bottom: 10px;
