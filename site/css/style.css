@@ -8,15 +8,6 @@
 /*========================================================
 										Main layout styles
 =========================================================*/
-img{
-  margin-top: 30px;
-}
-
-h4{
-  margin-top: 15px;
-  margin-bottom: 10px;
-}
-
 body {
   background: #1e2e2f;
   font: 14px/24px Georgia, 'Times New Roman', Times, serif;
