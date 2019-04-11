@@ -166,6 +166,8 @@ table {
   width: 1170px;
 }
 .grid_12 {
+  margin-top: 2%;
+  margin-bottom: 2%;
   width: 1170px;
 }
 .grid_11 {
@@ -304,6 +306,7 @@ table {
     width: 380px;
   }
   .grid_4 {
+    margin-top: 2%;
     width: 300px;
   }
   .grid_3 {
@@ -375,6 +378,8 @@ table {
     width: 748px;
   }
   .grid_12 {
+    margin-top: 2%;
+    margin-bottom: 2%;
     width: 748px;
   }
   .grid_11 {
@@ -399,6 +404,7 @@ table {
     width: 300px;
   }
   .grid_4 {
+    margin-top: 2%;
     width: 236px;
   }
   .grid_3 {
