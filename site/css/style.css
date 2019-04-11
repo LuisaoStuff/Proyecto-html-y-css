@@ -421,7 +421,7 @@ p {
     font: 20px/20px 'Marvel', sans-serif;
     text-align: center;
     margin-bottom: 20px;
-    color: #3c3c3e;
+    color: #f1f1f1;
   }
   h6 {
   font-size: 16px;
@@ -429,7 +429,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
   margin-bottom: 10px;
-  color: #3c3c3e;
+  color: #f1f1f1;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -455,13 +455,13 @@ p {
     font: 20px/20px 'Marvel', sans-serif;
     text-align: center;
     margin-bottom: 20px;
-    color: #3c3c3e;
+    color: #f1f1f1;
   }
   h6 {
     font: 20px/20px 'Marvel', sans-serif;
     text-align: justify;
     margin-bottom: 20px;
-    color: #3c3c3e;
+    color: #f1f1f1;
   }
   .img_block {
     margin-bottom: 20px;
@@ -490,13 +490,13 @@ p {
     font: 16px/16px 'Marvel', sans-serif;
     text-align: center;
     margin-bottom: 20px;
-    color: #3c3c3e;
+    color: #f1f1f1;
   }
   h6 {
     font: 16px/16px 'Marvel', sans-serif;
     text-align: justify;
     margin-bottom: 20px;
-    color: #3c3c3e;
+    color: #f1f1f1;
   }
   .img_block {
     margin-bottom: 20px;
@@ -1021,7 +1021,7 @@ p {
 }
 .index-3 .block-1 h4 {
   text-align: left;
-  color: #3c3c3e;
+  color: #f1f1f1;
   margin-bottom: 35px;
 }
 .index-3 .block-1 article {
@@ -1194,7 +1194,7 @@ p {
 #footer {
   background: #f6f6f7;
   padding: 10px 0 0;
-  color: #3c3c3e;
+  color: #f1f1f1;
 }
 #footer a {
   color: inherit;
