@@ -180,6 +180,7 @@ table {
   width: 870px;
 }
 .grid_8 {
+  margin-top: 23px;
   width: 770px;
 }
 .grid_7 {
@@ -196,7 +197,8 @@ table {
   width: 370px;
 }
 .grid_3 {
-  width: 270px;
+  margin-top: -271px;
+  width: 370px;
 }
 .grid_2 {
   width: 170px;
@@ -294,6 +296,7 @@ table {
     width: 700px;
   }
   .grid_8 {
+    margin-top: 48px;
     width: 620px;
   }
   .grid_7 {
@@ -310,7 +313,8 @@ table {
     width: 300px;
   }
   .grid_3 {
-    width: 220px;
+    width: 300px;
+    margin-top: -231px;
   }
   .grid_2 {
     width: 140px;
