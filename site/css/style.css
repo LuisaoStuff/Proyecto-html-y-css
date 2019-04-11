@@ -141,8 +141,8 @@ h5 a:hover {
   line-height: 36px;
   margin-top: auto;
   margin-top: 150px;
-  border-top: 2px solid #fff;
-  padding-top: 50px;
+  border-top: 3px solid #fff;
+  padding-top: 14px;
   display: table;
 }
 .sf-menu > li {
@@ -171,7 +171,7 @@ h5 a:hover {
 .sf-menu > li > a:before {
   content: "";
   position: absolute;
-  top: -52px;
+  top: -20px;
   left: 37%;
   width: 38px;
   height: 12px;
@@ -187,7 +187,7 @@ h5 a:hover {
 }
 .sf-menu > li.current > a:before {
   background-position: 0 0;
-  top: -46px;
+  top: -20px;
   height: 21px;
 }
 @media only screen and (max-width: 979px) {
