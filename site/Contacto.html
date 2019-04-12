@@ -95,7 +95,13 @@ document.writein('<input type=hidden value='+score+' name=Resultado>');
                 input.type = "hidden";
                 input.name = "Resultado";
                 input.value = score
-                container.appendChild(input);          
+                container.appendChild(input);      
+                container.appendChild(document.createTextNode("Enviar"));
+                // Create an <input> element, set its type and name attributes
+                var input = document.createElement("input");
+                input.type = "submit";
+                input.name = "Enviar";
+                container.appendChild(input);        
         }
     </script>
 	</head>
@@ -298,7 +304,7 @@ document.writein('<input type=hidden value='+score+' name=Resultado>');
               <input name=10 onClick="Engine(10, this.value)" type=radio value=d required>
               Michael Madsen.</font></p>
 
-              <input onClick=addFields() type=submit>
+              <input onClick=addFields() type=button>
             </form> 
   </div>
       </div>
