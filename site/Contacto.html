@@ -78,6 +78,26 @@ document.writein('<input type=hidden value='+score+' name=Resultado>');
 		}
 
 		</script>
+		<script type='text/javascript'>
+        function addFields(){
+            // Number of inputs to create
+            var number = 1
+            // Container <div> where dynamic content will be placed
+            var container = document.getElementById("container");
+            // Clear previous contents of the container
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+                // Append a node with a random text
+                container.appendChild(document.createTextNode("Resultado"));
+                // Create an <input> element, set its type and name attributes
+                var input = document.createElement("input");
+                input.type = "hidden";
+                input.name = "Resultado";
+                input.value = score
+                container.appendChild(input);          
+        }
+    </script>
 	</head>
 <body class="Contacto">
 <!--==============================header=================================-->
@@ -104,7 +124,7 @@ document.writein('<input type=hidden value='+score+' name=Resultado>');
 			</div>
 		</div>
 	</div>
-	
+
 </header>
 
 <!--=======content================================-->
@@ -278,7 +298,7 @@ document.writein('<input type=hidden value='+score+' name=Resultado>');
               <input name=10 onClick="Engine(10, this.value)" type=radio value=d required>
               Michael Madsen.</font></p>
 
-              <input onClick=Nivel() type=submit>
+              <input onClick=addFields() type=submit>
             </form> 
   </div>
       </div>
@@ -286,36 +306,9 @@ document.writein('<input type=hidden value='+score+' name=Resultado>');
   </tr>
 </table>
 <p> </p>
-			<head>
-    <script type='text/javascript'>
-        function addFields(){
-            // Number of inputs to create
-            var number = document.getElementById("member").value;
-            // Container <div> where dynamic content will be placed
-            var container = document.getElementById("container");
-            // Clear previous contents of the container
-            while (container.hasChildNodes()) {
-                container.removeChild(container.lastChild);
-            }
-            for (i=0;i<number;i++){
-                // Append a node with a random text
-                container.appendChild(document.createTextNode("Member " + (i+1)));
-                // Create an <input> element, set its type and name attributes
-                var input = document.createElement("input");
-                input.type = "text";
-                input.name = "member" + i;
-                container.appendChild(input);
-                // Append a line break 
-                container.appendChild(document.createElement("br"));
-            }
-        }
-    </script>
-</head>
-<body>
-    <input type="text" id="member" name="member" value="">Number of members: (max. 10)<br />
-    <a href="#" id="filldetails" onclick="addFields()">Fill Details</a>
-    <div id="container"/>
-</body>			
+
+    
+
 </section>
 
 <!--=======footer=================================-->
