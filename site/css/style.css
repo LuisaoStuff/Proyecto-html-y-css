@@ -321,9 +321,9 @@ h4 {
 h2 {
   font: 400 60px/60px 'Open Sans', sans-serif;
     text-align: left;
-    margin-left: 7.5%;
-    margin-bottom: 1%;
-    margin-top: 3%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
     display: inline-block;
 }
 h3 {
@@ -1329,10 +1329,12 @@ p {
 /*Core variables and mixins*/
 
 .wikitable {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     color: #222;
     text-align: center;
     margin: 1em 0;
     border: 1px solid #a2a9b1;
     border-collapse: collapse;
+    width: 50%;
+    height: 200px;
 }
