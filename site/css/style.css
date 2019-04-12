@@ -1329,11 +1329,11 @@ p {
 /*Core variables and mixins*/
 
 .wikitable {
-    background-color: #ffffff;
-    color: #222;
+background-color: #1e2e2f;
+    color: #fff;
     text-align: center;
     margin: 1em 0;
-    border: 1px solid #a2a9b1;
+    border: 10px solid #636363;
     border-collapse: collapse;
     width: 50%;
     height: 200px;
