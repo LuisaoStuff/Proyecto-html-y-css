@@ -76,18 +76,23 @@
 		function Nivel () {
 		        if (score = 10) {
 		                Valor=score + "/10 " + "And the Oscar goes to... TÚ. ¡Brillante! La alfombra roja se te queda pequeña.";
+		                alert(Valor);
 		                }
 		        if (score >= 8 && score < 10) {
 		                Valor=score + "/10 " + "¡Gran enfoque! Rozas el Oscar, pero te quedas sin él y sin hacer pleno. ¡Repite!";
+		                alert(Valor);
 		                }
 		        if (score >= 5 && score < 8) {
 		                Valor=score + "/10 " + "Los años en la academia de cine dejaron su sello en ti, aunque que te falta saber algo más para ser un maestro.";
+		                alert(Valor);
 		                }
 		        if (score >= 3 && score < 5) {
 		                Valor=score + "/10 " + "Tu actuación sigue siendo digna de un Razzie. No has acertado ni la mitad.";
+		                alert(Valor);
 		                }
 		        if (score < 3) {
 		                Valor=score + "/10 " + "¡¡Corten, corten!! Un auténtico desastre. ¡Repite la toma, por favor!";
+		                alert(Valor);
 		                }
 		}
 
@@ -315,57 +320,6 @@
 		</div>
 		<div class="footer_bottom"><a href="https://www.imdb.com/name/nm0000233/"><img src="images/footer-logo.png" alt="logo"></a></div>
 	</footer>
-<script type="text/javascript">
-		google_api_map_init();
-		function google_api_map_init(){
-			var map;
-			var coordData = new google.maps.LatLng(parseFloat(40.6894388), parseFloat(-73.9036233,10)); 
-
-			var styleArray = [
-				{"featureType":"water","stylers":[{"color":"#021019"}]},
-				{"featureType":"landscape","stylers":[{"color":"#08304b"}]},
-				{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#0c4152"},{"lightness":5}]},
-				{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},
-				{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#0b434f"},{"lightness":25}]},
-				{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},
-				{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#0b3d51"},{"lightness":16}]},
-				{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"}]},
-				{"elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},
-				{"elementType":"labels.text.stroke","stylers":[{"color":"#000000"},{"lightness":13}]},
-				{"featureType":"transit","stylers":[{"color":"#146474"}]},
-				{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},
-				{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#144b53"},{"lightness":14},{"weight":1.4}]}
-				]
-			 
-			function initialize() { 
-			  var mapOptions = { 
-				zoom: 12, 
-				center: coordData, 
-				scrollwheel: false, 
-				styles: styleArray 
-			  } 
- 
-			  var contentString = "<div></div>"; 
-			  var infowindow = new google.maps.InfoWindow({ 
-				content: contentString, 
-				maxWidth: 200 
-			  }); 
-			   
-			  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions); 
-
-
-			google.maps.event.addDomListener(window, 'resize', function() {
-
-			  map.setCenter(coordData);
-
-			  var center = map.getCenter();
-			});
-		}
-
-			google.maps.event.addDomListener(window, "load", initialize); 
-
-		}
 </script>
-<!-- coded by Fred -->
 </body>
 </html>
