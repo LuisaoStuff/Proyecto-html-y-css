@@ -76,7 +76,7 @@ document.writein('<input type=hidden value='+score+' name=Resultado>');
 		}
 
 		</script>
-		<script type='text/javascript'>
+		<script>
         function addFields(){
             // Container <div> where dynamic content will be placed
             var container = document.getElementById("container");
@@ -133,7 +133,6 @@ document.writein('<input type=hidden value='+score+' name=Resultado>');
 <section id="content">
 	<h2>¿Cuánto sabes de Quentin Tarantino?</h2>
 	<div class="grid_7">
-		<div align="left">
 			<form name="formulario" action="http://www2.gonzalonazareno.org/josedom/resultado.php" method="get">
 				<h5>
 				1. ¿Cuál fue su primera película como director?</h5>
@@ -283,10 +282,9 @@ document.writein('<input type=hidden value='+score+' name=Resultado>');
 				<h5> 
 				  <input name=10 onClick="Engine(10, this.value)" type=radio value=d required>
 				  Michael Madsen.</h5>
-				</div id="container"></div>
+				</div id="container">
 			</form>
 		</div>
-	</div> 
 </section>
 
 <!--=======footer=================================-->
