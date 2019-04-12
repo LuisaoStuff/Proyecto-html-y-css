@@ -1202,9 +1202,9 @@ p {
 										FOOTER styles
 =========================================================*/
 #footer {
-  background: #f6f6f7;
-  padding: 10px 0 0;
-  color: #f1f1f1;
+    background: #1e2e2f;
+    padding: 10px 0 0;
+    color: #ffffff;
 }
 #footer a {
   color: inherit;
@@ -1233,7 +1233,7 @@ p {
   color: #fff;
 }
 #footer .copyright pre {
-  color: #000;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   margin-bottom: 10px;
@@ -1265,7 +1265,7 @@ p {
 ========================================================*/
 #toTop {
   display: none;
-  background: #d94d3a;
+  background: #8a1c0d;
   text-decoration: none;
   position: fixed;
   bottom: 80px;
@@ -1284,7 +1284,7 @@ p {
 }
 #toTop:hover {
   outline: none;
-  color: #7d261a;
+  color: #1e2e2f;
   -webkit-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
