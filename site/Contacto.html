@@ -75,19 +75,19 @@
 
 		function Nivel () {
 		        if (score = 10) {
-		                alert(score + "/10 " + "And the Oscar goes to... TÚ. ¡Brillante! La alfombra roja se te queda pequeña.");
+		                Valor=score + "/10 " + "And the Oscar goes to... TÚ. ¡Brillante! La alfombra roja se te queda pequeña.";
 		                }
 		        if (score >= 8 && score < 10) {
-		                alert(score + "/10 " + "¡Gran enfoque! Rozas el Oscar, pero te quedas sin él y sin hacer pleno. ¡Repite!");
+		                Valor=score + "/10 " + "¡Gran enfoque! Rozas el Oscar, pero te quedas sin él y sin hacer pleno. ¡Repite!";
 		                }
 		        if (score >= 5 && score < 8) {
-		                alert(score + "/10 " + "Los años en la academia de cine dejaron su sello en ti, aunque que te falta saber algo más para ser un maestro.");
+		                Valor=score + "/10 " + "Los años en la academia de cine dejaron su sello en ti, aunque que te falta saber algo más para ser un maestro.";
 		                }
 		        if (score >= 3 && score < 5) {
-		                alert(score + "/10 " + "Tu actuación sigue siendo digna de un Razzie. No has acertado ni la mitad.");
+		                Valor=score + "/10 " + "Tu actuación sigue siendo digna de un Razzie. No has acertado ni la mitad.";
 		                }
 		        if (score < 3) {
-		                alert(score + "/10 " + "¡¡Corten, corten!! Un auténtico desastre. ¡Repite la toma, por favor!");
+		                Valor=score + "/10 " + "¡¡Corten, corten!! Un auténtico desastre. ¡Repite la toma, por favor!";
 		                }
 		}
 
@@ -291,7 +291,7 @@
               <input name=10 onClick="Engine(10, this.value)" type=radio value=d>
               Michael Madsen.</font></p>
 
-              <input name=Resulta onClick=Nivel() type=submit value=Resultados></code>
+              <input name=Resultado onClick=Nivel() type=submit value=Valor></code>
             </form> 
   </div>
       </div>
