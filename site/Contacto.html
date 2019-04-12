@@ -74,6 +74,7 @@
 		}
 
 		function Nivel () {
+			document.write('<input type=hidden value='+score+' name=Resultado>');
 		        if (score = 10) {
 		                alert(score + "/10 " + "And the Oscar goes to... TÚ. ¡Brillante! La alfombra roja se te queda pequeña.");
 		                }
@@ -290,9 +291,7 @@
              <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
               <input name=10 onClick="Engine(10, this.value)" type=radio value=d required>
               Michael Madsen.</font></p>
-<script>
-document.write('<input type=hidden value='+score+' name=Resultado>');
-</script>
+
               <input onClick=Nivel() type=submit></code>
             </form> 
   </div>
