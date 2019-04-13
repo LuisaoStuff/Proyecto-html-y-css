@@ -16,14 +16,14 @@ Esta raspberry lleva instalado *raspbian lite strech* junto con el paquete *apac
 
 Para conseguir que fuese accesible, he tenido que seguir una serie de pasos.
 ##### 1. Asignarle una **ip estática** por **dhcp** dentro de mi red privada.
-[Imgur](https://i.imgur.com/5sfrQey.png)
+![Imgur](https://i.imgur.com/5sfrQey.png)
 ##### 2. Configurar el **Port Forwarding** abriendo el **puerto 80** para la ip de mi raspberry.
-[Imgur](https://i.imgur.com/o4iNXyY.png)
+![Imgur](https://i.imgur.com/o4iNXyY.png)
 ##### 3. Registrarme en la página *NO-IP* para conseguir un **dns dinámico**.
 ##### 4. Asociar el **dns dinámico** a mi **ip pública**.
-[Imgur](https://i.imgur.com/5oZWBnc.png)
+![Imgur](https://i.imgur.com/5oZWBnc.png)
 ##### 5. Activar en mi router el *dns dinámico* y vincular mi cuenta.
-[Imgur](https://i.imgur.com/S44R2s6.png)
+![Imgur](https://i.imgur.com/S44R2s6.png)
 ##### 6. Descargar el **paquete ofrecido por NO-IP** en la raspberry **para que el dns** sea realmente dinámico y si cambia mi ip pública, **se actualice automáticamente**.
 
 
