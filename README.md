@@ -1,12 +1,11 @@
 # Proyecto-html-y-css
 
 Esta página consistirá en una biografía y filmografía del director, productor y actor Quentin Tarantino, así como las diversas curiosidades y anécdotas sobre su carrera.
+> [Aquí te dejo algunas capturas de pantalla](https://mega.nz/#F!7E9VDCpa!i5QSPFBQmvsR4mgIaXLrSA)
 
 ### Link a la página
 
 [<img src="https://i.imgur.com/UzSGgtN.png">](http://tarantino.ddns.net)
-
-### 									>>> [Capturas de la página](https://mega.nz/#F!7E9VDCpa!i5QSPFBQmvsR4mgIaXLrSA)
 
 ### Página de descarga de la plantilla
 
