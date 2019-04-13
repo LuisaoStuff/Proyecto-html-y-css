@@ -73,6 +73,23 @@
 			</div>
 		</div>
 	</div>
+	<script>
+        function addFields(link){
+            // Container <div> where dynamic content will be placed
+            var container = document.getElementById("container");
+            // Clear previous contents of the container
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+            // Create an <input> element, set its type and name attribute
+            // Append a line break 
+            var a = document.createElement("a");
+            a.style = "text-align: center; margin-left: 150px";
+            a.href = link;          
+            container.appendChild(a);
+            // Append a line break 
+        }
+    </script>
 </header>
 
 <!--=======content================================-->
@@ -84,7 +101,8 @@
 				<ol>
 					<li id=1992>
 					<div class="grid_4">
-						<a href="videos/Reservoir-Dogs.mp4" data-fancybox="gallery" data-caption="Seis criminales profesionales son contratados para robar en un almacén de diamantes, pero la policía aparece inesperadamente en el momento del atraco."><img class="imagen1" src="videos/reservoir-dogs.jpg" alt="Reservoir Dogs"></a>
+						<a onClick="addFields(https://www.imdb.com/title/tt0105236/)" href="videos/Reservoir-Dogs.mp4" data-fancybox="gallery" data-caption="Seis criminales profesionales son contratados para robar en un almacén de diamantes, pero la policía aparece inesperadamente en el momento del atraco."><img class="imagen1" src="videos/reservoir-dogs.jpg" alt="Reservoir Dogs"></a>
+						<div class="grid_12" id="container"></div>
 						<article>
 						<h4>Reservoir Dogs</h4>
 							<h5>8.3/10</h5>
