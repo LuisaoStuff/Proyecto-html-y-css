@@ -6,6 +6,8 @@ Esta página consistirá en una biografía y filmografía del director, producto
 
 [<img src="https://i.imgur.com/UzSGgtN.png">](http://tarantino.ddns.net)
 
+
+<h3 style="text-align: right;" href="https://mega.nz/#F!7E9VDCpa!i5QSPFBQmvsR4mgIaXLrSA">Capturas de la página</h3>
 ### Página de descarga de la plantilla
 
 [<img src="https://s.tmimgcdn.com/wp-content/uploads/2016/05/logo_tm_new.svg">](https://www.templatemonster.com/)
