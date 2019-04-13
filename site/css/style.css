@@ -312,6 +312,11 @@ h5 a:hover {
 /*========================================================
 										CONTENT styles
 =========================================================*/
+
+td {
+    border: 2px solid #636363;
+    vertical-align: middle;
+}
 h2,
 h3,
 h4 {
@@ -1329,12 +1334,12 @@ p {
 /*Core variables and mixins*/
 
 .wikitable {
-background-color: #1e2e2f;
+    background-color: #2b2b2b;
     color: #fff;
     text-align: center;
     margin: 1em 0;
-    border: 10px solid #636363;
+    border: 6px solid #636363;
     border-collapse: collapse;
-    width: 50%;
-    height: 200px;
+    width: 100%;
+    height: 250px;
 }
