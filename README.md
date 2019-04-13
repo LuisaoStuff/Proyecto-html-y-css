@@ -4,7 +4,7 @@ Esta página consistirá en una biografía y filmografía del director, producto
 
 ### Link a la página
 
-[<img src"https://i.imgur.com/UzSGgtN.png">](http://tarantino.ddns.net)
+[<img src="https://i.imgur.com/UzSGgtN.png">](http://tarantino.ddns.net)
 
 ### Página de descarga de la plantilla
 
