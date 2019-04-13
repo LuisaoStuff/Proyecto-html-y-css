@@ -7,7 +7,8 @@ Esta página consistirá en una biografía y filmografía del director, producto
 
 [<img src="https://i.imgur.com/UzSGgtN.png">](http://tarantino.ddns.net)
 
-### Página de descarga de la plantilla					[<img src="https://s.tmimgcdn.com/wp-content/uploads/2016/05/logo_tm_new.svg">](https://www.templatemonster.com/)
+### Página de descarga de la plantilla
+[<img src="https://s.tmimgcdn.com/wp-content/uploads/2016/05/logo_tm_new.svg">](https://www.templatemonster.com/)
 
 # Hosting
 Podría haber utilizado una página de hosting gratuito como *000webhost*, pero en lugar de eso he utilizado una raspberry pi zero. Al ser una página bastante ligera y tener un tráfico casi nulo no he necesitado usar un modelo con prestaciones superiores.
