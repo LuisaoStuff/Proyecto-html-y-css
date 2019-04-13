@@ -1,10 +1,12 @@
 [<img src="https://i.imgur.com/UzSGgtN.png">](http://tarantino.ddns.net)
 
-Esta página consistirá en una biografía y filmografía del director, productor y actor Quentin Tarantino, así como las diversas curiosidades y anécdotas sobre su carrera.
-> [Aquí te dejo algunas capturas de pantalla](https://mega.nz/#F!7E9VDCpa!i5QSPFBQmvsR4mgIaXLrSA)
+Esta página consistirá en una biografía y filmografía del director, productor y actor Quentin Tarantino, así como las diversas curiosidades y anécdotas sobre su carrera. La plantilla utilizada ha sido descargada de la página ***Template Monster***
+
+[<img src="https://s.tmimgcdn.com/wp-content/uploads/2016/05/logo_tm_new.svg">](https://www.templatemonster.com/)
+
+#### [Aquí te dejo algunas capturas de pantalla](https://mega.nz/#F!7E9VDCpa!i5QSPFBQmvsR4mgIaXLrSA)
 
 ### Página de descarga de la plantilla
-[<img src="https://s.tmimgcdn.com/wp-content/uploads/2016/05/logo_tm_new.svg">](https://www.templatemonster.com/)
 
 # Hosting
 Podría haber utilizado una página de hosting gratuito como *000webhost*, pero en lugar de eso he utilizado una raspberry pi zero. Al ser una página bastante ligera y tener un tráfico casi nulo no he necesitado usar un modelo con prestaciones superiores.
