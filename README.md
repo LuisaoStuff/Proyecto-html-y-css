@@ -6,8 +6,6 @@ Esta página consistirá en una biografía y filmografía del director, producto
 
 #### [Aquí te dejo algunas capturas de pantalla](https://mega.nz/#F!7E9VDCpa!i5QSPFBQmvsR4mgIaXLrSA)
 
-### Página de descarga de la plantilla
-
 # Hosting
 Podría haber utilizado una página de hosting gratuito como *000webhost*, pero en lugar de eso he utilizado una raspberry pi zero. Al ser una página bastante ligera y tener un tráfico casi nulo no he necesitado usar un modelo con prestaciones superiores.
 Esta raspberry lleva instalado *raspbian lite strech* junto con el paquete *apache2*.
