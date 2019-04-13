@@ -313,6 +313,19 @@ h5 a:hover {
 										CONTENT styles
 =========================================================*/
 
+h4.titulos {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+h5.opciones {
+    text-align: left;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
 td {
     border: 2px solid #636363;
     vertical-align: middle;
