@@ -316,6 +316,16 @@ h5 a:hover {
 td {
     border: 2px solid #636363;
     vertical-align: middle;
+    text-align: center;
+    color: white;
+    background-color: #2b2b2b;
+}
+th {
+    border: 2px solid #636363;
+    vertical-align: middle;
+    background-color: #949494;
+    text-align: center;
+    color: white;
 }
 h2,
 h3,
