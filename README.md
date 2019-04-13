@@ -21,9 +21,6 @@ Para conseguir que fuese accesible, he tenido que seguir una serie de pasos.
 ![Imgur](https://i.imgur.com/5oZWBnc.png)
 ##### 5. Activar en mi router el *dns dinámico* y vincular mi cuenta.
 ![Imgur](https://i.imgur.com/S44R2s6.png)
-##### 6. Descargar el **paquete ofrecido por NO-IP** en la raspberry **para que el dns** sea realmente dinámico y si cambia mi ip pública, **se actualice automáticamente**.
+##### 6. Descargar el **paquete ofrecido por NO-IP** en la raspberry **para que el dns** sea realmente dinámico y si cambia mi ip pública, **se actualice automáticamente**. Aquí dejo un tutorial:
 
-
-
-
-
+[<img src="https://i.imgur.com/e4EsDNW.png">](https://www.youtube.com/watch?v=8xp4kkbsZi0)
