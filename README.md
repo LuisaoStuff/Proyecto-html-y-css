@@ -1,6 +1,6 @@
 [<img src="https://i.imgur.com/UzSGgtN.png">](http://tarantino.ddns.net)
 
-Esta página consistirá en una biografía y filmografía del director, productor y actor Quentin Tarantino, así como las diversas curiosidades y anécdotas sobre su carrera. La plantilla utilizada ha sido descargada de la página ***Template Monster***
+Esta página consistirá en una biografía y filmografía del director, productor y actor Quentin Tarantino, así como las diversas curiosidades y anécdotas sobre su carrera. La plantilla utilizada ha sido descargada de la página [***Template Monster***](https://www.templatemonster.com/)
 
 [<img src="https://s.tmimgcdn.com/wp-content/uploads/2016/05/logo_tm_new.svg">](https://www.templatemonster.com/)
 
